@@ -6,6 +6,7 @@ import useAuth from '../../../../hooks/useAuth';
 
 
 
+
 const Header = () => {
     const { user, logOut } = useAuth();
     
@@ -23,7 +24,7 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/doctors">Doctor</Nav.Link>
                             <Nav.Link as={HashLink} to="/medicines">Medicine</Nav.Link>
                             <Nav.Link as={HashLink} to="/shop">Shop</Nav.Link>
-                            <Nav.Link as={HashLink} to="/order">Order</Nav.Link>
+                            <Nav.Link as={HashLink} to="/about">About us</Nav.Link>
                         </Nav>
                         <Nav>
                             {
@@ -40,6 +41,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
         </>
     );
 };

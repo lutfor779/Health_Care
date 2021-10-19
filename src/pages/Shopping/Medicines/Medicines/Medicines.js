@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import useFakeDB from '../../../../hooks/useFakeDB';
+import Extra from '../../../Shared/Header/Extra/Extra';
 import Medicine from '../Medicine/Medicine';
 
 const Medicines = () => {
     const { medicines } = useFakeDB();
     return (
         <div>
+            <Extra></Extra>
             <Container>
                 <div className="my-5">
                     <div className="text-center mb-5 w-50 mx-auto">

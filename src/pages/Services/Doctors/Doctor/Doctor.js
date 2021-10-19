@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Card } from 'react-bootstrap';
+import { Col, Card } from 'react-bootstrap';
 
 
 const Doctor = (props) => {

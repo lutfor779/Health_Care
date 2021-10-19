@@ -76,7 +76,6 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false))
     }
 
-    // console.log(email, name, password, "from Firebase");
 
     return {
         user,

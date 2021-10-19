@@ -13,6 +13,7 @@ import AuthProvider from './context/AuthProvider';
 import Shop from './pages/Shopping/Shop/Shop';
 import Medicines from './pages/Shopping/Medicines/Medicines/Medicines';
 import Doctors from './pages/Services/Doctors/Doctors/Doctors';
+import About from './pages/About/About/About';
 
 function App() {
   return (
@@ -37,14 +38,17 @@ function App() {
               <PrivateRoute path="/doctors">
                 <Doctors></Doctors>
               </PrivateRoute>
-              <Route path="/resister">
-                <Resister></Resister>
-              </Route>
               <PrivateRoute path="/shop">
                 <Shop></Shop>
               </PrivateRoute>
+              <Route path="/about">
+                <About></About>
+              </Route>
               <Route path="/login">
                 <Login></Login>
+              </Route>
+              <Route path="/resister">
+                <Resister></Resister>
               </Route>
               <Route path="*">
                 <NotFound></NotFound>
