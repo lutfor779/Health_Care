@@ -1,0 +1,78 @@
+  {
+    "doctors": [
+      {
+        "id": 1,
+        "img": "https://images.unsplash.com/photo-1536064479547-7ee40b74b807?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "title": "humberto chavez",
+        "detail": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      },
+      {
+        "id": 2,
+        "img": "https://images.unsplash.com/photo-1612349316228-5942a9b489c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "title": "Usman Yousaf",
+        "detail": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      },
+      {
+        "id": 3,
+        "img": "https://images.unsplash.com/photo-1551601651-09492b5468b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=913&q=80",
+        "title": "Olga Guryanova",
+        "detail": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      },
+      {
+        "id": 4,
+        "img": "https://images.unsplash.com/photo-1584516150909-c43483ee7932?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2024&q=80",
+        "title": "Towfiqu barbuya",
+        "detail": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      },
+      {
+        "id": 5,
+        "img": "https://images.unsplash.com/photo-1578496479763-c21c718af028?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "title": "Stationery Lobtyun",
+        "detail": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      }
+    ],
+    "services": [
+      {
+        "id": 1,
+        "title": "Online trainings from experts",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fuga suscipit numquam esse saepe quam, eveniet iure assumenda dignissimos aliquam!",
+        "img": "https://images.unsplash.com/photo-1576089172869-4f5f6f315620?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=926&q=80"
+      },
+      {
+        "id": 2,
+        "title": "Craseb libero",
+        "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.",
+        "img": "https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      },
+      {
+        "id": 3,
+        "title": "Operation Theater",
+        "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.",
+        "img": "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1491&q=80"
+      },
+      {
+        "id": 4,
+        "title": "Best quality product",
+        "about": "Harum, adipisci, aspernatur. Vero repudiandae quos ab debitis, fugiat culpa obcaecati, voluptatibus ad distinctio cum soluta fugit sed animi eaque?",
+        "img": "https://images.unsplash.com/photo-1580281658223-9b93f18ae9ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      },
+      {
+        "id": 5,
+        "title": "Euismod magna",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fuga suscipit numquam esse saepe quam, eveniet iure assumenda dignissimos aliquam!",
+        "img": "https://images.unsplash.com/photo-1576765974004-1fcdcab09015?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1478&q=80"
+      },
+      {
+        "id": 6,
+        "title": "Advanced lab",
+        "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.",
+        "img": "https://images.unsplash.com/photo-1579154204601-01588f351e67?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+      },
+      {
+        "id": 7,
+        "title": "Helpful Receptionist",
+        "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.",
+        "img": "https://images.unsplash.com/photo-1547489432-cf93fa6c71ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+      }
+    ]
+  }
