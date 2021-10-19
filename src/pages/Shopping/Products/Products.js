@@ -17,7 +17,7 @@ const Products = () => {
                     <div className="p-4">
                         <Row xs={1} md={2} lg={3} className="g-4 handle-service px-3 pb-4">
                             {
-                                products && products.map(product => <Product key={product.id} product={product}></Product>)
+                            products && products.map(product => <Product key={product.id} product={product}></Product>)
                             }
                         </Row>
                     </div>
