@@ -7,11 +7,12 @@ import NotFound from './pages/NotFound/NotFound';
 import Resister from './pages/Login/Resister/Resister';
 import Header from './pages/Shared/Header/Header/Header';
 import Footer from './pages/Shared/Footer/Footer';
-import Medicine from './pages/Services/Medicine/Medicine';
 import Services from './pages/Services/Services/Services';
 import PrivateRoute from './pages/Shared/Private/PrivateRoute';
-import Order from './pages/Shoping/Order/Order';
 import AuthProvider from './context/AuthProvider';
+import Shop from './pages/Shopping/Shop/Shop';
+import Medicines from './pages/Shopping/Medicines/Medicines/Medicines';
+import Doctors from './pages/Services/Doctors/Doctors/Doctors';
 
 function App() {
   return (
@@ -27,18 +28,21 @@ function App() {
               <Route path="/home">
                 <Home></Home>
               </Route>
-              <Route path="/medicine">
-                <Medicine></Medicine>
-              </Route>
+              <PrivateRoute path="/medicines">
+                <Medicines></Medicines>
+              </PrivateRoute>
               <Route path="/services">
                 <Services></Services>
               </Route>
-              <PrivateRoute path="/order">
-                <Order></Order>
+              <PrivateRoute path="/doctors">
+                <Doctors></Doctors>
               </PrivateRoute>
               <Route path="/resister">
                 <Resister></Resister>
               </Route>
+              <PrivateRoute path="/shop">
+                <Shop></Shop>
+              </PrivateRoute>
               <Route path="/login">
                 <Login></Login>
               </Route>

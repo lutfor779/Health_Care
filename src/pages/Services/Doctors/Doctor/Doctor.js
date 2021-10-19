@@ -1,22 +1,22 @@
 import React from 'react';
-import "./Service.css";
-import { Col, Card } from 'react-bootstrap';
+import { Button, Col, Card } from 'react-bootstrap';
 
-const Service = (props) => {
-    const { title, about, img } = props.service;
-    
+
+const Doctor = (props) => {
+    const { title, detail, img } = props.doctor;
+
+
     return (
         <Col>
-            <Card className="card">
+            <Card className="card" >
                 <Card.Img variant="top" src={img} alt="Service Image" className="little-img mb-3" />
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
-                    <br />
-                    <Card.Text>{about}</Card.Text>
+                    <Card.Text>{detail}</Card.Text>
                 </Card.Body>
             </Card>
         </Col>
     );
 };
 
-export default Service;
+export default Doctor;

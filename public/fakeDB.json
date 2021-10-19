@@ -29,6 +29,12 @@
         "img": "https://images.unsplash.com/photo-1578496479763-c21c718af028?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
         "title": "Stationery Lobtyun",
         "detail": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      },
+      {
+        "id": 6,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMS6r3Qq4-9SGoQs_vpqYG7kkP1UfyRqTwHZahQwbCL-TALN1foEORmchO1u5-iui6EnE&usqp=CAU",
+        "title": " Nelson Dilipkumar",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam maxime molestiae? Iste, quae quam?"
       }
     ],
     "services": [
@@ -73,6 +79,82 @@
         "title": "Helpful Receptionist",
         "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.",
         "img": "https://images.unsplash.com/photo-1547489432-cf93fa6c71ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "title": "Dettol",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, hic?",
+        "img": "https://media-services.digital-rb.com/s3/live-productcatalogue/sys-master/images/h72/h87/8868000595998/PackShots(Units)DDL(2.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Infants' Pain & Fever",
+        "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio.",
+        "img": "https://cdn.sanity.io/images/8f2jlyhn/production/085daa1c59e5e93fbd3da280abb6d3110fc6812a-1573x2000.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Antacids",
+        "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.",
+        "img": "https://lh3.googleusercontent.com/proxy/R2fIWZaE99L9W86GJZIhSKYd0IRfFFB_x0vcBNl1G4dxDGPQyHcmRs_tqwmHxErN0kBs-YXSPFY6pnw7H_8KIxMLTXIXoIsqGL2X"
+      },
+      {
+        "id": 4,
+        "title": "Cold & Flu Medicine",
+        "about": "Harum, adipisci, aspernatur. Vero repudiandae quos ab debitis, fugiat culpa obcaecati, voluptatibus ad distinctio cum soluta fugit sed animi eaque?",
+        "img": "https://lh3.googleusercontent.com/proxy/qQz9TLoMzHXL1ZIN50W42hh6aiXg-HHbYocy_8qhj0pEMtBdo9m-8yjHNYaPIVKAQzhFnXQ8dcL-PiB9DL35YALBEEZJ09zn_rRBaxVI61drnxk"
+      },
+      {
+        "id": 5,
+        "title": "Pain Killer",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fuga suscipit numquam esse saepe quam, eveniet iure assumenda dignissimos aliquam!",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvIT_2BOMV73WnE5N3OnCLeCP5-H76_zp21qTTJP_T32SwqcMoJbX5UkhffVFLJOzU1vM&usqp=CAU"
+      },
+      {
+        "id": 6,
+        "title": "Nusrax Drop",
+        "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.",
+        "img": "https://5.imimg.com/data5/KY/YK/MY-10645097/hydroxyzine-hydrochloride-oral-solution-ip-drop-500x500.jpg"
+      }
+    ],
+    "medicines": [
+      {
+        "id": 1,
+        "title": "Paracetamol",
+        "img": "https://img.jagranjosh.com/imported/images/E/GK/paracetamol-tablets-export.jpg",
+        "price": "$5"
+      },
+      {
+        "id": 2,
+        "title": "Azithromycin Tablet",
+        "img": "https://img3.exportersindia.com/product_images/bc-full/dir_154/4615689/azithromycin-tablet-1508837651-3413567.jpg",
+        "price": "$8"
+      },
+      {
+        "id": 3,
+        "title": "Aziget",
+        "img": "http://www.getwellltd.com/wp-content/uploads/2017/07/Aziget.jpg",
+        "price": "$15"
+      },
+      {
+        "id": 4,
+        "title": "Climycin TM 300",
+        "img": "http://www.squarepharma.com.bd/products/Climycin%20300%20Cap.jpg",
+        "price": "$3"
+      },
+      {
+        "id": 5,
+        "title": "Calcitrol",
+        "img": "https://emedi.com.bd/wp-content/uploads/2020/09/CALCITROL.jpg",
+        "price": "$7"
+      },
+      {
+        "id": 6,
+        "title": "Lucent",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPAwPXl-CxfVH52drCgkfkAuE1UjglT68UJhfmWY1Q6Rq8w7YPgO1hCnzNL8o_b7bBqbU&usqp=CAU",
+        "price": "$4"
       }
     ]
   }
