@@ -15,15 +15,15 @@ const Resister = () => {
         signInWithGoogle()
             .then(result => {
                 setUser(result.user);
-                setError({});
+                setError("");
                 history.push(from)
             })
             .catch(err => {
-                setError(err)
+                setError(err.message)
             })
     }
 
-   
+
 
     return (
         <div>
@@ -66,9 +66,10 @@ const Resister = () => {
                                 required />
                         </FloatingLabel>
 
-                        <div>
-                            <p className="text-danger mt-3">{error.message}</p>
-                        </div>
+                        {
+                            error && <p className="text-danger mt-3">{error}</p>
+                            
+                        }
 
                         <Button variant="primary"
                             type="submit"
@@ -87,7 +88,7 @@ const Resister = () => {
                         </Button>
                     </Form>
                     <p className="mt-3 text-center">Already have an account? <Link to="/login">Login</Link></p>
-                </div>                
+                </div>
             </Container>
         </div>
     );

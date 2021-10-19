@@ -6,7 +6,7 @@ initializeFirebase();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
-    const [error, setError] = useState({});
+    const [error, setError] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [name, setName] = useState("");
@@ -30,14 +30,19 @@ const useFirebase = () => {
 
     const resister = (event) => {
         event.preventDefault();
+        if (password.length < 6) {
+            setError('Passwords should be 6 characters long');
+            return;
+        }
         createUserWithEmailAndPassword(auth, email, password)
             .then(userCredential => {
                 setUser(userCredential.user);
+                setError("");
                 updateProfile(auth.currentUser, {
                     displayName: name
                 })
                     .then(() => {
-                        setError({});
+                        setError("");
                     })
                     .catch(err => {
                         setError(err.message)
@@ -54,7 +59,7 @@ const useFirebase = () => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user);
-                setError({});
+                setError("");
             }
             else {
                 setUser({});
@@ -69,9 +74,10 @@ const useFirebase = () => {
         signOut(auth)
             .then(() => {
                 setUser({});
+                setError("")
             })
             .catch(err => {
-                setError(err);
+                setError(err.message);
             })
             .finally(() => setIsLoading(false))
     }
