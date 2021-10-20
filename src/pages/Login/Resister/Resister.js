@@ -103,7 +103,7 @@ const Resister = () => {
                         </Button>
 
                         <br />
-                        <Button variant="warning"
+                        <Button variant="success"
                             type="button"
                             onClick={handleGithubLogin}
                             className="mt-3">
