@@ -14,7 +14,7 @@ import Shop from './pages/Shopping/Shop/Shop';
 import Medicines from './pages/Shopping/Medicines/Medicines/Medicines';
 import Doctors from './pages/Services/Doctors/Doctors/Doctors';
 import About from './pages/About/About/About';
-
+  
 
 function App() {
   return (
