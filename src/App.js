@@ -14,7 +14,8 @@ import Shop from './pages/Shopping/Shop/Shop';
 import Medicines from './pages/Shopping/Medicines/Medicines/Medicines';
 import Doctors from './pages/Services/Doctors/Doctors/Doctors';
 import About from './pages/About/About/About';
-  
+import ProductDetails from './pages/Details/ProductDetails/ProductDetails';
+
 
 function App() {
   return (
@@ -39,12 +40,15 @@ function App() {
               <PrivateRoute path="/doctors">
                 <Doctors></Doctors>
               </PrivateRoute>
-              <PrivateRoute path="/shop">
+              <Route path="/shop">
                 <Shop></Shop>
-              </PrivateRoute>
+              </Route>
               <Route path="/about">
                 <About></About>
               </Route>
+              <PrivateRoute path="/product/:productId">
+                <ProductDetails></ProductDetails>
+              </PrivateRoute>
               <Route path="/login">
                 <Login></Login>
               </Route>

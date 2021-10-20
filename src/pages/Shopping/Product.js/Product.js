@@ -1,9 +1,10 @@
 import React from 'react';
 import { Button, Col, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 const Product = (props) => {
-    const { title, about, img } = props.product;
+    const { id, title, about, img } = props.product;
 
     return (
         <Col>
@@ -14,7 +15,9 @@ const Product = (props) => {
                     <Card.Text>{about}</Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <Button variant="primary">Detail</Button>
+                    <Link to={`/product/${id}`}>
+                        <Button variant="primary">Detail</Button>
+                    </Link>
                 </Card.Footer>
             </Card>
         </Col>

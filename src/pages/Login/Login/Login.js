@@ -16,7 +16,6 @@ const Login = () => {
         signInWithGithub()
             .then(result => {
                 setUser(result.user);
-                console.log(result.user);
                 setError("");
                 history.push(from)
             })
