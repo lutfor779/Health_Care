@@ -87,7 +87,7 @@ const Resister = () => {
                             Google Signin
                         </Button>
                     </Form>
-                    <p className="mt-3 text-center">Already have an account? <Link to="/login">Login</Link></p>
+                    <p className="mt-3 text-center">Already have an account? <Link to="/login" onClick={()=>setError("")}>Login</Link></p>
                 </div>
             </Container>
         </div>

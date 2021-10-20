@@ -26,10 +26,12 @@ const Header = () => {
                         </Nav>
                         <Nav>
                             {
-                                user.displayName ? <div>
-                                    <Navbar.Text>
-                                        Signed in as: {user.displayName}
-                                    </Navbar.Text>
+                                user.email ? <div>
+                                    {
+                                        user.displayName && <Navbar.Text>
+                                            Signed in as: {user.displayName}
+                                        </Navbar.Text>
+                                    }
                                     <Button variant="outline-warning" onClick={logOut}>
                                         Logout
                                     </Button>

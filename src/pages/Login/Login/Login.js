@@ -6,12 +6,25 @@ import useAuth from '../../../hooks/useAuth';
 
 
 const Login = () => {
-    const { signInWithGoogle, emailPasswordLogin, error, setUser, setError, setEmail, setPassword } = useAuth();
+    const { signInWithGoogle, emailPasswordLogin, error, setUser, setError, setEmail, setPassword, signInWithGithub } = useAuth();
 
     const history = useHistory();
     const location = useLocation();
     const { from } = location.state || { from: { pathname: "/" } };
-    
+
+    const handleGithubLogin = () => {
+        signInWithGithub()
+            .then(result => {
+                setUser(result.user);
+                console.log(result.user);
+                setError("");
+                history.push(from)
+            })
+            .catch(err => {
+                setError(err.message)
+            })
+    }
+
     const handleGoogleLogin = () => {
         signInWithGoogle()
             .then(result => {
@@ -32,12 +45,12 @@ const Login = () => {
                 history.push(from)
             })
             .catch((err) => setError(err.message))
-            
+
     }
 
     return (
         <>
-            
+
             <Container>
                 <div className="form mt-5 p-5 bg-primary bg-opacity-25 rounded-3">
                     <h3>Please Login</h3>
@@ -64,7 +77,7 @@ const Login = () => {
                                 }}
                                 required />
                         </FloatingLabel>
-            
+
                         {
                             error && <p className="text-danger mt-3">{error}</p>
 
@@ -76,17 +89,24 @@ const Login = () => {
                             className="mt-3">
                             Login
                         </Button>
-                        
+
                         <br />
-                        
+
                         <Button variant="warning"
                             type="button"
                             onClick={handleGoogleLogin}
                             className="mt-3">
                             Google Signin
                         </Button>
+                        <br />
+                        <Button variant="warning"
+                            type="button"
+                            onClick={handleGithubLogin}
+                            className="mt-3">
+                            Github Signin
+                        </Button>
                     </Form>
-                    <p className="mt-3 text-center">New to <span className="fw-bold">Health Care</span>? <Link to="/resister">Resister</Link></p>
+                    <p className="mt-3 text-center">New to <span className="fw-bold">Health Care</span>? <Link to="/resister" onClick={() => setError("")}>Resister</Link></p>
                 </div>
             </Container>
         </>
