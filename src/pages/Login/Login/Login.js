@@ -64,6 +64,7 @@ const Login = () => {
                                 onBlur={(event) => {
                                     setEmail(event.target.value);
                                 }}
+                                onClick={()=>setError("")}
                                 required />
                         </FloatingLabel>
 

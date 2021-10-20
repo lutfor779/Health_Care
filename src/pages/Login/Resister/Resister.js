@@ -5,7 +5,7 @@ import { useHistory, useLocation } from "react-router";
 import useAuth from '../../../hooks/useAuth';
 
 const Resister = () => {
-    const { signInWithGoogle, resister, error, setUser, setError, setEmail, setPassword, setName } = useAuth();
+    const { signInWithGoogle, resister, error, setUser, setError, setEmail, setPassword, setName, signInWithGithub } = useAuth();
 
     const history = useHistory();
     const location = useLocation();
@@ -15,6 +15,19 @@ const Resister = () => {
         signInWithGoogle()
             .then(result => {
                 setUser(result.user);
+                setError("");
+                history.push(from)
+            })
+            .catch(err => {
+                setError(err.message)
+            })
+    }
+
+    const handleGithubLogin = () => {
+        signInWithGithub()
+            .then(result => {
+                setUser(result.user);
+                console.log(result.user);
                 setError("");
                 history.push(from)
             })
@@ -40,6 +53,7 @@ const Resister = () => {
                                 onBlur={(event) => {
                                     setEmail(event.target.value);
                                 }}
+                                onClick={() => setError("")}
                                 required />
                         </FloatingLabel>
 
@@ -52,6 +66,7 @@ const Resister = () => {
                                 onBlur={(event) => {
                                     setName(event.target.value);
                                 }}
+                                onClick={() => setError("")}
                                 required />
                         </FloatingLabel>
 
@@ -85,6 +100,14 @@ const Resister = () => {
                             onClick={handleGoogleLogin}
                             className="mt-3">
                             Google Signin
+                        </Button>
+
+                        <br />
+                        <Button variant="warning"
+                            type="button"
+                            onClick={handleGithubLogin}
+                            className="mt-3">
+                            Github Signin
                         </Button>
                     </Form>
                     <p className="mt-3 text-center">Already have an account? <Link to="/login" onClick={()=>setError("")}>Login</Link></p>
