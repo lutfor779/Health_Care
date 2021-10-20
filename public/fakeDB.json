@@ -84,39 +84,39 @@
     "products": [
       {
         "id": 1,
-        "title": "Dettol",
+        "title": "Fast Aid & Kit",
         "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, hic?",
-        "img": "https://media-services.digital-rb.com/s3/live-productcatalogue/sys-master/images/h72/h87/8868000595998/PackShots(Units)DDL(2.jpg"
+        "img": "https://ethix.in/wp-content/uploads/2019/05/first-aid-kit.jpg"
       },
       {
         "id": 2,
-        "title": "Infants' Pain & Fever",
+        "title": "Antiseptics",
         "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio.",
-        "img": "https://cdn.sanity.io/images/8f2jlyhn/production/085daa1c59e5e93fbd3da280abb6d3110fc6812a-1573x2000.jpg"
+        "img": "https://secure.agamishop.com/category_image/cat_banec3326655c-2020-07-04.webp"
       },
       {
         "id": 3,
-        "title": "Antacids",
+        "title": "Disinfectants",
         "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.",
-        "img": "https://3.imimg.com/data3/JS/RY/GLADMIN-4799/antacid-tablets-500x500.jpg"
+        "img": "https://static.mothership.sg/1/2020/02/clean.jpg"
       },
       {
         "id": 4,
-        "title": "Cold & Flu Medicine",
+        "title": "OTC Products",
         "about": "Harum, adipisci, aspernatur. Vero repudiandae quos ab debitis, fugiat culpa obcaecati, voluptatibus ad distinctio cum soluta fugit sed animi eaque?",
-        "img": "https://images.yaoota.com/3dKiK6R9GRRCH4nsglaw0T3sqsw=/trim/yaootaweb-production/media/crawledproductimages/5480c40c35019476e5706906064393b0a2f90bef.jpg"
+        "img": "https://shac.unm.edu/assets/img/pharmacy-otc/cough-and-cold.jpeg"
       },
       {
         "id": 5,
-        "title": "Pain Killer",
+        "title": "Pain Killers",
         "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fuga suscipit numquam esse saepe quam, eveniet iure assumenda dignissimos aliquam!",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvIT_2BOMV73WnE5N3OnCLeCP5-H76_zp21qTTJP_T32SwqcMoJbX5UkhffVFLJOzU1vM&usqp=CAU"
+        "img": "https://mibiz.com/media/k2/items/cache/a63986d97df5d35d8f051e87176e056d_XL.jpg"
       },
       {
         "id": 6,
-        "title": "Nusrax Drop",
+        "title": "Health Drinks",
         "about": "Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.",
-        "img": "https://5.imimg.com/data5/KY/YK/MY-10645097/hydroxyzine-hydrochloride-oral-solution-ip-drop-500x500.jpg"
+        "img": "https://cartfull.in/wp-content/uploads/2020/12/9073457676.jpg"
       }
     ],
     "medicines": [
@@ -155,6 +155,24 @@
         "title": "Lucent",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPAwPXl-CxfVH52drCgkfkAuE1UjglT68UJhfmWY1Q6Rq8w7YPgO1hCnzNL8o_b7bBqbU&usqp=CAU",
         "price": "$4"
+      },
+      {
+        "id": 7,
+        "title": "Antacids",
+        "img": "https://3.imimg.com/data3/JS/RY/GLADMIN-4799/antacid-tablets-500x500.jpg",
+        "price": "$3"
+      },
+      {
+        "id": 8,
+        "title": "Cold & Flu Medicine",
+        "img": "https://images.yaoota.com/3dKiK6R9GRRCH4nsglaw0T3sqsw=/trim/yaootaweb-production/media/crawledproductimages/5480c40c35019476e5706906064393b0a2f90bef.jpg",
+        "price": "$8"
+      },
+      {
+        "id": 9,
+        "title": "Unibron",
+        "img": "https://5.imimg.com/data5/DP/BI/MY-23538836/unibron-capsule-asthma-capsule-500x500.jpg",
+        "price": "$12"
       }
     ]
   }
