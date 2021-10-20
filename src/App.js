@@ -22,7 +22,7 @@ function App() {
     <div>
       <AuthProvider>
         <BrowserRouter>
-          <main style={{ minHeight: "1000px" }}>
+          <main style={{ minHeight: "1200px" }}>
             <Header></Header>
             <Switch>
               <Route exact path="/">

@@ -1,5 +1,17 @@
 .single-img{
     height: 500px;
-    /* width: 500px; */
     border-radius: 15px;
+}
+
+@media only screen and (max-width: 480px){
+    .single-img{
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .detail{
+        width: 65%;
+        margin: auto;
+    }
 }
